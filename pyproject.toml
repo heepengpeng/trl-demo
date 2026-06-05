@@ -4,5 +4,11 @@ version = "0.1.0"
 requires-python = ">=3.10"
 dependencies = [
     "datasets",
+    "math-verify>=0.9.0",
+    "matplotlib>=3.8",
+    "modelscope>=1.37.1",
     "trl",
 ]
+
+[tool.uv]
+index-url = "https://mirrors.aliyun.com/pypi/simple"
