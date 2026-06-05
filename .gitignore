@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Data & checkpoints
+data/
+checkpoints/
+*.log
+wandb/
+
+# verl source clone (optional)
+third_party/verl/
+
+# macOS
+.DS_Store
