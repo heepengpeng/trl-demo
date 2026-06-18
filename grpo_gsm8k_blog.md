@@ -109,9 +109,6 @@ ValueError: generation_batch_size (4) must be divisible by num_generations (8).
 
 ### Loss 曲线：GRPO 的 loss 不是普通意义上的 loss
 
-
-(loss)[./training_curves.png]
-
 GRPO 的 loss 定义与监督学习有本质区别，这是容易误读的地方。
 
 TRL 日志中的 `loss` 是 GRPO 目标函数的负值，其符号和绝对值意义不同于交叉熵 loss：
